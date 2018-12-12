@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8
 MAINTAINER Leonardo Park
 VOLUME /tmp
 ADD ./build/libs/app.jar app.jar
